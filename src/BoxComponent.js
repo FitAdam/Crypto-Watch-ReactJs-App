@@ -1,9 +1,9 @@
 import React from 'react';
 
-function BoxComponent(){
+function BoxComponent(props){
     return (
         <div>
-            <h1>TO THE MOON</h1>
+            {props.price}
         </div>
     )
 
