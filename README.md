@@ -1,8 +1,9 @@
-
+﻿
 # REACT.JS Crypto Watch App
 
-## This app helps you to track prices of your favourtie cryptocurrencies. 
+## This app helps you to track prices of your favorite crypto-currencies. 
 
+![](landing_page.PNG)
 
 ### `npm start`
 
