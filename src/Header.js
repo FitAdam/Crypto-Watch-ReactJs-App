@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 
 function Header(){
     return (
@@ -7,6 +8,7 @@ function Header(){
           <h1>
            This is going to be AWESOME CRYPTO WATCH APP.
           </h1>
+          
           
         </header>
       

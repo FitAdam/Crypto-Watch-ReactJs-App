@@ -13,18 +13,21 @@ html, body{
 }
 
 
+.box-component{
 
-.container{
+  background: linear-gradient(to right, #2f0b48, #bd054e);
   width: 90%;
   height: 400px;
   max-width: 960px;
   margin: 0 auto;
   padding: 30px;
-  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
+
 p{
   font-size: 16px;
   font-weight: bold;
@@ -33,7 +36,7 @@ p{
   -webkit-text-fill-color: transparent;
   max-width: 350px;
   text-transform: uppercase;
-  line-height: .88;
+  
 }
 
 h1{
@@ -47,12 +50,13 @@ h1{
   line-height: .88;
 }
 
-li{
+h5{
   font-size: 16px;
   font-weight: bold;
-  background: linear-gradient(to right, #2f0b48, #aeaeae);
+  background: linear-gradient(to right, #e6c4ff, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   max-width: 350px;
   text-transform: uppercase;
+  line-height: .88;
 }
