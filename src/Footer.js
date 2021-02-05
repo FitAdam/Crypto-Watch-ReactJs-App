@@ -2,8 +2,8 @@ import React from 'react';
 
 function Footer(){
     return (
-        <footer>
-            <p>This is nice footer.</p>
+        <footer className='footer'>
+            <p>https://www.coindesk.com/api</p>
         </footer>
     )
 
